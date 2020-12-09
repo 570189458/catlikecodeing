@@ -5,10 +5,7 @@
       <change beforePath="$PROJECT_DIR$/.idea/.idea.catlikecodeing/.idea/contentModel.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.catlikecodeing/.idea/contentModel.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.catlikecodeing/.idea/indexLayout.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.catlikecodeing/.idea/indexLayout.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.catlikecodeing/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.catlikecodeing/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Packages/manifest.json" beforeDir="false" afterPath="$PROJECT_DIR$/Packages/manifest.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Packages/packages-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/Packages/packages-lock.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ProjectSettings/GraphicsSettings.asset" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/GraphicsSettings.asset" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ProjectSettings/InputManager.asset" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/InputManager.asset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Visualizing Math/Point/Point URP.shadergraph" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_Visualizing Math/Point/Point URP.shadergraph" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/ProjectSettings/QualitySettings.asset" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/QualitySettings.asset" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -20,13 +17,17 @@
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="HighlightingSettingsPerFile">
+    <setting file="file://$PROJECT_DIR$/Assets/_Sculpting with Numbers/Scripts/Graph2.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/_Visualizing Math/Scripts/Graph.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/_Sculpting with Numbers/Scripts/FunctionLibrary.cs" root0="FORCE_HIGHLIGHTING" />
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
         <option value="$PROJECT_DIR$/Assets/Scripts/Clock.cs" />
         <option value="$PROJECT_DIR$/Assets/_Visualizing Math/Scripts/Graph.cs" />
+        <option value="$PROJECT_DIR$/Assets/_Sculpting with Numbers/Scripts/Graph2.cs" />
+        <option value="$PROJECT_DIR$/Assets/_Sculpting with Numbers/Scripts/FunctionLibrary.cs" />
       </list>
     </option>
   </component>
@@ -69,6 +70,7 @@
       <updated>1607414683577</updated>
       <workItem from="1607414736492" duration="2112000" />
       <workItem from="1607417887340" duration="4362000" />
+      <workItem from="1607474277192" duration="13703000" />
     </task>
     <servers />
   </component>
@@ -77,4 +79,10 @@
   </component>
   <component name="UnityProjectConfiguration" hasMinimizedUI="true" />
   <component name="UnityUnitTestConfiguration" currentTestLauncher="EditMode" />
+  <component name="WindowStateProjectService">
+    <state x="1418" y="268" width="672" height="678" key="search.everywhere.popup" timestamp="1607496327329">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="1418" y="268" width="672" height="678" key="search.everywhere.popup/0.0.1920.1040@0.0.1920.1040" timestamp="1607496327329" />
+  </component>
 </project>

@@ -11,6 +11,15 @@
             <e p="Clock.cs" t="Include" />
           </e>
         </e>
+        <e p="_Sculpting with Numbers" t="Include">
+          <e p="Point" t="Include">
+            <e p="Point Surface.shader" t="Include" />
+          </e>
+          <e p="Scripts" t="Include">
+            <e p="FunctionLibrary.cs" t="Include" />
+            <e p="Graph2.cs" t="Include" />
+          </e>
+        </e>
         <e p="_Visualizing Math" t="Include">
           <e p="Point" t="Include">
             <e p="Point Surface.shader" t="Include" />
