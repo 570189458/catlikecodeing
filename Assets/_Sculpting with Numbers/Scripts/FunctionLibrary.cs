@@ -3,9 +3,11 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using static UnityEngine.Mathf;
+using Random = UnityEngine.Random;
+
 public static class FunctionLibrary
 {
-    public delegate Vector3 Funciton(float u, float v, float t);
+    public delegate Vector3 Function(float u, float v, float t);
 
     public enum FunctionName
     {
@@ -17,7 +19,7 @@ public static class FunctionLibrary
         Torus
     }
     
-    private static Funciton[] _funcitons =
+    private static Function[] _funcitons =
     {
         Wave,
         MultiWave,
@@ -27,9 +29,29 @@ public static class FunctionLibrary
         Torus
     };
 
-    public static Funciton GetFunction(FunctionName name)
+    public static Function GetFunction(FunctionName name)
     {
         return _funcitons[(int) name];
+    }
+
+    public static FunctionName GetNextFunctionName(FunctionName name)
+    {
+        if ((int) name < _funcitons.Length - 1)
+            return name + 1;
+        else
+            return 0;
+    }
+
+    public static FunctionName GetRandomFunctionName()
+    {
+        var choose = (FunctionName) Random.Range(0, _funcitons.Length);
+        return choose;
+    }
+
+    public static FunctionName GetRandomFunctionNameOtherThan(FunctionName name)
+    {
+        var choose = (FunctionName) Random.Range(1, _funcitons.Length);
+        return choose == name ? 0 : choose;
     }
 
     public static Vector3 Wave(float u, float v, float t)
@@ -96,5 +118,10 @@ public static class FunctionLibrary
         p.y = r2 * Sin(PI * v);
         p.z = s * Cos(PI * u);
         return p;
+    }
+
+    public static Vector3 Morph(float u, float v, float t, Function from, Function to, float progress)
+    {
+        return Vector3.LerpUnclamped(from(u, v, t), to(u, v, t), SmoothStep(0f, 1f, progress));
     }
 }

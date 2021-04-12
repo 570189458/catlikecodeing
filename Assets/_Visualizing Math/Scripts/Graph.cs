@@ -8,7 +8,7 @@ public class Graph : MonoBehaviour
     [SerializeField]
     private Transform pointPrefab = default;
 
-    [SerializeField, Range(10, 100)]
+    [SerializeField, Range(10, 200)]
     private int resolution = 10;
 
     private Transform[] points;
@@ -43,4 +43,5 @@ public class Graph : MonoBehaviour
             point.localPosition = position;
         }
     }
+
 }
