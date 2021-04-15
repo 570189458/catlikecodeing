@@ -17,8 +17,13 @@
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="HighlightingSettingsPerFile">
+    <setting file="file://$PROJECT_DIR$/Assets/_Sculpting with Numbers/Point/Point Surface.shader" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/_Sculpting with Numbers/Scripts/GPUGraph.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/_Sculpting with Numbers/Point/Point Surface GPU.shader" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/_Sculpting with Numbers/Scripts/FunctionLibrary.compute" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/_Sculpting with Numbers/Scripts/Graph2.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/_Visualizing Math/Scripts/Graph.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Temp/GeneratedFromSurface-Custom-Point Surface.shader" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/_Sculpting with Numbers/Scripts/FunctionLibrary.cs" root0="FORCE_HIGHLIGHTING" />
   </component>
   <component name="IdeDocumentHistory">
@@ -28,6 +33,9 @@
         <option value="$PROJECT_DIR$/Assets/_Visualizing Math/Scripts/Graph.cs" />
         <option value="$PROJECT_DIR$/Assets/_Sculpting with Numbers/Scripts/FunctionLibrary.cs" />
         <option value="$PROJECT_DIR$/Assets/_Sculpting with Numbers/Scripts/Graph2.cs" />
+        <option value="$PROJECT_DIR$/Assets/_Sculpting with Numbers/Point/Point Surface GPU.shader" />
+        <option value="$PROJECT_DIR$/Assets/_Sculpting with Numbers/Scripts/GPUGraph.cs" />
+        <option value="$PROJECT_DIR$/Assets/_Sculpting with Numbers/Scripts/FunctionLibrary.compute" />
       </list>
     </option>
   </component>
@@ -43,6 +51,7 @@
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="TWShift.3" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="settings.editor.selected.configurable" value="editor.preferences.fonts.default" />
   </component>
   <component name="RunManager" selected="Attach to Unity Editor.Attach to Unity Editor">
     <configuration name="Attach to Unity Editor &amp; Play" type="UNITY_DEBUG_RUN_CONFIGURATION" factoryName="UNITY_ATTACH_AND_PLAY" show_console_on_std_err="false" show_console_on_std_out="false" port="50000" address="localhost">
@@ -71,7 +80,8 @@
       <workItem from="1607414736492" duration="2112000" />
       <workItem from="1607417887340" duration="4362000" />
       <workItem from="1607474277192" duration="13703000" />
-      <workItem from="1618232533416" duration="4137000" />
+      <workItem from="1618232533416" duration="4807000" />
+      <workItem from="1618487270943" duration="5505000" />
     </task>
     <servers />
   </component>
@@ -81,9 +91,13 @@
   <component name="UnityProjectConfiguration" hasMinimizedUI="true" />
   <component name="UnityUnitTestConfiguration" currentTestLauncher="EditMode" />
   <component name="WindowStateProjectService">
-    <state x="1418" y="268" width="672" height="678" key="search.everywhere.popup" timestamp="1607496327329">
+    <state x="428" y="0" key="SettingsEditor" timestamp="1618488899407">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="1418" y="268" width="672" height="678" key="search.everywhere.popup/0.0.1920.1040@0.0.1920.1040" timestamp="1607496327329" />
+    <state x="428" y="0" key="SettingsEditor/1920.0.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1618488899407" />
+    <state x="623" y="225" width="672" height="678" key="search.everywhere.popup" timestamp="1618488305694">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="623" y="225" width="672" height="678" key="search.everywhere.popup/1920.0.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1618488305694" />
   </component>
 </project>

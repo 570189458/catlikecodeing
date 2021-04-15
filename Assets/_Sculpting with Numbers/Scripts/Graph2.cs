@@ -9,7 +9,7 @@ public class Graph2 : MonoBehaviour
     [SerializeField]
     private Transform pointPrefab = default;
 
-    [SerializeField, Range(10, 100)]
+    [SerializeField, Range(10, 200)]
     private int resolution = 10;
 
     // [SerializeField, Range(0, 2)]

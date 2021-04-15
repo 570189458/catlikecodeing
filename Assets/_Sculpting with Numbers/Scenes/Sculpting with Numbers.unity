@@ -451,14 +451,17 @@ MonoBehaviour:
   m_GameObject: {fileID: 1771822206}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: f7040cb1ee67ff74e93562def0a90214, type: 3}
+  m_Script: {fileID: 11500000, guid: 157c5f9a27c5ab547b90fcc598c0b145, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  pointPrefab: {fileID: 5791379811055288345, guid: 1a466acaa1b9631458f86723116db284,
-    type: 3}
-  resolution: 100
-  function: 5
+  resolution: 64
+  function: 0
   functionDuration: 1
+  transitionDuration: 1
+  transitionMode: 1
+  _material: {fileID: 2100000, guid: dbcd760ae710fc64a8fe7dece49e21ca, type: 2}
+  _mesh: {fileID: 10202, guid: 0000000000000000e000000000000000, type: 0}
+  _computeShader: {fileID: 7200000, guid: 488a9c50ba16c964fa9cb5e4cb83d2e8, type: 3}
 --- !u!4 &1771822208
 Transform:
   m_ObjectHideFlags: 0
