@@ -43,12 +43,13 @@ public class GPUGraph : MonoBehaviour
 
     [SerializeField]
     public ComputeShader _computeShader = default;
-    
-    static readonly int 
+
+    private static readonly int
         positionsId = Shader.PropertyToID("_Positions"),
         resolutionId = Shader.PropertyToID("_Resolution"),
         stepId = Shader.PropertyToID("_Step"),
-        timeId = Shader.PropertyToID("_Time");
+        timeId = Shader.PropertyToID("_Time"),
+        scaleId = Shader.PropertyToID("_Scale");
 
     private void OnEnable()
     {
@@ -102,6 +103,8 @@ public class GPUGraph : MonoBehaviour
         _computeShader.Dispatch(0, groups, groups, 1);
         _material.SetBuffer(positionsId, positionsBuffer);
         _material.SetFloat(stepId, step);
+        _material.SetBuffer(positionsId, positionsBuffer);
+        _material.SetVector(scaleId, new Vector4(step, 1f / step));
         var bounds = new Bounds(Vector3.zero, Vector3.one * (2f + 2f / resolution));
         Graphics.DrawMeshInstancedProcedural(_mesh, 0, _material, bounds, positionsBuffer.count);
     }

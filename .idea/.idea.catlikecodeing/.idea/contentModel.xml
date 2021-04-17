@@ -11,8 +11,12 @@
             <e p="Clock.cs" t="Include" />
           </e>
         </e>
+        <e p="_Jobs" t="Include">
+          <e p="Fractal.cs" t="Include" />
+        </e>
         <e p="_Sculpting with Numbers" t="Include">
           <e p="Point" t="Include">
+            <e p="Point GPU.hlsl" t="Include" />
             <e p="Point Surface GPU.shader" t="Include" />
             <e p="Point Surface.shader" t="Include" />
           </e>

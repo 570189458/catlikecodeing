@@ -17,13 +17,15 @@
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="HighlightingSettingsPerFile">
+    <setting file="file://$PROJECT_DIR$/Assets/_Sculpting with Numbers/Point/Point GPU.hlsl" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/_Jobs/Fractal.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/_Sculpting with Numbers/Point/Point Surface.shader" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/_Sculpting with Numbers/Scripts/GPUGraph.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/_Sculpting with Numbers/Point/Point Surface GPU.shader" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/0928F207-8DF6-41A0-AFAF-D68C34CF1273/5e/4368c769/ComputeShader.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/_Sculpting with Numbers/Scripts/FunctionLibrary.compute" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/_Sculpting with Numbers/Scripts/Graph2.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/_Visualizing Math/Scripts/Graph.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Temp/GeneratedFromSurface-Custom-Point Surface.shader" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/_Sculpting with Numbers/Scripts/FunctionLibrary.cs" root0="FORCE_HIGHLIGHTING" />
   </component>
   <component name="IdeDocumentHistory">
@@ -33,9 +35,12 @@
         <option value="$PROJECT_DIR$/Assets/_Visualizing Math/Scripts/Graph.cs" />
         <option value="$PROJECT_DIR$/Assets/_Sculpting with Numbers/Scripts/FunctionLibrary.cs" />
         <option value="$PROJECT_DIR$/Assets/_Sculpting with Numbers/Scripts/Graph2.cs" />
+        <option value="$PROJECT_DIR$/Assets/_Sculpting with Numbers/Point/FunctionLibrary.compute" />
+        <option value="$PROJECT_DIR$/Assets/_Sculpting with Numbers/Scripts/FunctionLibrary.compute" />
         <option value="$PROJECT_DIR$/Assets/_Sculpting with Numbers/Point/Point Surface GPU.shader" />
         <option value="$PROJECT_DIR$/Assets/_Sculpting with Numbers/Scripts/GPUGraph.cs" />
-        <option value="$PROJECT_DIR$/Assets/_Sculpting with Numbers/Scripts/FunctionLibrary.compute" />
+        <option value="$PROJECT_DIR$/Assets/_Sculpting with Numbers/Point/Point GPU.hlsl" />
+        <option value="$PROJECT_DIR$/Assets/_Jobs/Fractal.cs" />
       </list>
     </option>
   </component>
@@ -81,7 +86,9 @@
       <workItem from="1607417887340" duration="4362000" />
       <workItem from="1607474277192" duration="13703000" />
       <workItem from="1618232533416" duration="4807000" />
-      <workItem from="1618487270943" duration="5505000" />
+      <workItem from="1618487270943" duration="5747000" />
+      <workItem from="1618633461389" duration="2412000" />
+      <workItem from="1618635939961" duration="7600000" />
     </task>
     <servers />
   </component>
